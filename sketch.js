@@ -5,6 +5,7 @@ var music
 
 function preload (){
     music = loadSound("music.mp3");
+}
 function setup(){
     canvas = createCanvas(800,600);
     block1 = createSprite(0,580,360,30);
